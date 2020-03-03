@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 02 Mar 2020 07:27:12 GMT
+ * Generated on Tue, 03 Mar 2020 07:22:33 GMT
  */
 
 export const color-base-gray-light = "#cccccc";
