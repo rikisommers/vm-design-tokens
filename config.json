@@ -1,0 +1,37 @@
+{
+  "source": ["properties/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [{
+        "destination": "_tokens.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [{
+        "destination": "_tokens.css",
+        "format": "css/variables"
+      }]
+    },
+    "less": {
+      "transformGroup": "less",
+      "buildPath": "build/less/",
+      "files": [{
+        "destination": "_tokens.less",
+        "format": "less/variables"
+      }]
+    },
+    "js": {
+      "transformGroup": "web",
+      "buildPath": "build/javascript/",
+      "files": [{
+        "destination": "_tokens.js",
+        "format": "javascript/es6"
+      }]
+    }
+  }
+}
